@@ -1,0 +1,27 @@
+*,*::before, *::after {box-sizing: border-box;}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-color: #1e1f23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img
+{
+    width: 80px;
+    filter: brightness(1%);
+
+}
+img{
+    cursor: pointer;
+}
+.container img:hover{
+    filter: none;
+
+}
+
